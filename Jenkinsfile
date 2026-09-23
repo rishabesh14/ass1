@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout code'){
             steps{
-                git branch:'main',url='https://github.com/rishabesh14/ass1.git'
+                git branch:'main',url:'https://github.com/rishabesh14/ass1.git'
             }
         }
         stage('Install dependencies'){
